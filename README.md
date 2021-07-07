@@ -1,3 +1,5 @@
 # chuckNorrisJokes
 
-### https://chuck-jokes.surge.sh/
+### https://acerbin.github.io/chuckNorrisJokes/
+
+<!--- ### https://chuck-jokes.surge.sh/ --->
