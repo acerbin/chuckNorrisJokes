@@ -16,8 +16,14 @@ function getJokes(e) {
       let output = '';
       if(jokes.type === 'success'){
         jokes.value.forEach(function(joke){
+          // <div class="col">${joke.joke}</div>
           output += `
-              <li>${joke.joke}</li>
+              <div class="card text-white bg-info mb-3 mx-auto" >
+                <div class="card-header"> </div>
+                <div class="card-body">
+                  <p class="card-text">${joke.joke}</p>
+                </div>
+              </div>
           `
         });
       } else {
